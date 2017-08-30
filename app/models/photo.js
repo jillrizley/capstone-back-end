@@ -7,7 +7,11 @@ const photoSchema = new mongoose.Schema({
     type: String,
     required: true
   },
-  comments: {
+  url: {
+    type: String,
+    require: true
+  },
+  albumId: {
     type: String,
     require: true
   },

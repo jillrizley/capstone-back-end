@@ -16,6 +16,7 @@
     "debug": "^2.6.6",
     "dotenv": "^4.0.0",
     "express": "^4.15.2",
+    "mongodb": "^2.2.31",
     "mongoose": "^4.11.8",
     "mongoose-unique-validator": "^1.0.5",
     "morgan": "^1.8.1",

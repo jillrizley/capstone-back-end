@@ -63,5 +63,5 @@ module.exports = controller({
   { method: setUser, only: ['index', 'show'] },
   { method: authenticate },
   { method: setModel(Album), only: ['show'] },
-  { method: setModel(Album, { forUser: true }), only: ['update', 'destroy', 'addActivity', 'removeActivity', 'addLandmark', 'removeLandmark', 'addFood', 'removeFood', 'addComment', 'removeComment'] }
+  { method: setModel(Album, { forUser: true }), only: ['update', 'destroy'] }
 ] })
