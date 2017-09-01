@@ -1,6 +1,6 @@
 #!/bin/sh
 
-API="http://localhost:4741"
+API="https://rocky-scrubland-71771.herokuapp.com/"
 URL_PATH="/photos"
 
 curl "${API}${URL_PATH}" \
